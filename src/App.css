@@ -37,12 +37,19 @@
   }
 }
 
+.list{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px 40px;
+}
+
 .voiced{
   font-weight: bold;
   font-style: italic;
   color: rgb(97, 95, 95);
   font-size: 18px;
 }
+
 
 blockquote{
   font-style: italic;
