@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.voiced{
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(97, 95, 95);
+  font-size: 18px;
+}
+
+blockquote{
+  font-style: italic;
+  font-weight: 700;
+}
