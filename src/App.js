@@ -7,8 +7,10 @@ import {Card, Button} from 'react-bootstrap'
 function App() {
   return (
     <div className="App">
+      <h1>Bojack Horseman Characters</h1>
       <div className = 'list'>
-        <Card style={{ width: '20rem', height: '26rem'}}>
+        <div className = 'box'>
+        <Card style={{ width: '20rem', height: '24rem'}}>
           <Card.Img variant="top" src='../assets/bojack.jpg' />
             <Character 
               name = 'Bojack Horseman' 
@@ -16,28 +18,33 @@ function App() {
               description = 'A self-loathing, alcoholic, anthropomorphic horse.' 
               quote = '"I Feel Like My Life Is Just A Series Of Unrelated Wacky Adventures."' />
         </Card>
-        <Card style={{ width: '20rem', height: '26rem'}}>
+        </div>
+
+        <div className = 'box'> 
+        <Card style={{ width: '20rem', height: '24rem'}}>
           <Card.Img variant="top" src='../assets/bojack.jpg' />
             <Character 
               name = 'Bojack Horseman' 
               actor = 'Will Arnett' 
-              description = 'A self-loathing, alcoholic, anthropomorphic horse who began as a young bright-eyed actor but has since grown bitter, deeply depressed.' 
+              description = 'A self-loathing, alcoholic, anthropomorphic horse.' 
               quote = '"I Feel Like My Life Is Just A Series Of Unrelated Wacky Adventures."' />
         </Card>
-        <Card style={{ width: '20rem', height: '26rem'}}>
+        </div>
+
+        <Card style={{ width: '20rem', height: '24rem'}}>
           <Card.Img variant="top" src='../assets/bojack.jpg' />
             <Character 
               name = 'Bojack Horseman' 
               actor = 'Will Arnett' 
-              description = 'A self-loathing, alcoholic, anthropomorphic horse who began as a young bright-eyed actor but has since grown bitter, deeply depressed.' 
+              description = 'A self-loathing, alcoholic, anthropomorphic horse.yen yen yen' 
               quote = '"I Feel Like My Life Is Just A Series Of Unrelated Wacky Adventures."' />
         </Card>
-        <Card style={{ width: '20rem', height: '26rem'}}>
+        <Card style={{ width: '20rem', height: '24rem'}}>
           <Card.Img variant="top" src='../assets/bojack.jpg' />
             <Character 
               name = 'Bojack Horseman' 
               actor = 'Will Arnett' 
-              description = 'A self-loathing, alcoholic, anthropomorphic horse who began as a young bright-eyed actor but has since grown bitter, deeply depressed.' 
+              description = 'A self-loathing, alcoholic, anthropomorphic horse.' 
               quote = '"I Feel Like My Life Is Just A Series Of Unrelated Wacky Adventures."' />
         </Card>
       </div>
