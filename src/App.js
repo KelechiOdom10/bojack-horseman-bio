@@ -31,14 +31,7 @@ function App() {
         </Card>
         </div>
 
-        <Card style={{ width: '20rem', height: '24rem'}}>
-          <Card.Img variant="top" src='../assets/bojack.jpg' />
-            <Character 
-              name = 'Bojack Horseman' 
-              actor = 'Will Arnett' 
-              description = 'A self-loathing, alcoholic, anthropomorphic horse.yen yen yen' 
-              quote = '"I Feel Like My Life Is Just A Series Of Unrelated Wacky Adventures."' />
-        </Card>
+        <div className = 'box'> 
         <Card style={{ width: '20rem', height: '24rem'}}>
           <Card.Img variant="top" src='../assets/bojack.jpg' />
             <Character 
@@ -47,6 +40,18 @@ function App() {
               description = 'A self-loathing, alcoholic, anthropomorphic horse.' 
               quote = '"I Feel Like My Life Is Just A Series Of Unrelated Wacky Adventures."' />
         </Card>
+        </div>
+
+        <div className = 'box'> 
+        <Card style={{ width: '20rem', height: '24rem'}}>
+          <Card.Img variant="top" src='../assets/bojack.jpg' />
+            <Character 
+              name = 'Bojack Horseman' 
+              actor = 'Will Arnett' 
+              description = 'A self-loathing, alcoholic, anthropomorphic horse.' 
+              quote = '"I Feel Like My Life Is Just A Series Of Unrelated Wacky Adventures."' />
+        </Card>
+        </div>
       </div>
     </div>
   );
