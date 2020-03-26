@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  max-width: 1400px;
 }
 
 *{
@@ -45,8 +46,8 @@
 .list{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
-  margin: 40px 40px;
-  grid-gap: 30px;
+  margin: 40px auto;
+  grid-gap: 100px;
 }
 
 h1{
