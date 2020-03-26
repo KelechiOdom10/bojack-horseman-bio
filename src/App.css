@@ -63,7 +63,7 @@ h1{
 
 
 .box{
-  box-shadow: 10px 10px;
+  box-shadow: 9px 5px 30px -1px rgba(0,0,0,0.75);
   border-radius: 15px;
 }
 

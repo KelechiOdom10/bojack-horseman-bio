@@ -22,12 +22,23 @@ function App() {
 
         <div className = 'box'> 
         <Card style={{ width: '20rem', height: '24rem'}}>
-          <Card.Img variant="top" src='../assets/bojack.jpg' />
+          <Card.Img variant="top" src='../assets/diane.jpg' />
             <Character 
-              name = 'Bojack Horseman' 
-              actor = 'Will Arnett' 
-              description = 'A self-loathing, alcoholic, anthropomorphic horse.' 
-              quote = '"I Feel Like My Life Is Just A Series Of Unrelated Wacky Adventures."' />
+              name = 'Diane Nguyen' 
+              actor = 'Alison Brie' 
+              description = 'A Vietnamese-American third-wave feminist from Boston' 
+              quote = '“Sometimes Life’s A B**** And Then You Keep Living.”' />
+        </Card>
+        </div>
+
+        <div className = 'box'> 
+        <Card style={{ width: '20rem', height: '24rem'}}>
+          <Card.Img variant="top" src='../assets/peanutbutter.jpg' />
+            <Character 
+              name = 'Mr. Peanutbutter' 
+              actor = 'Paul F. Tompkins' 
+              description = 'An energetic and cheerful yellow Labrador Retrieve' 
+              quote = '“The universe is a cruel, uncaring void...eventually, you’ll be dead.”' />
         </Card>
         </div>
 
@@ -38,18 +49,7 @@ function App() {
               name = 'Bojack Horseman' 
               actor = 'Will Arnett' 
               description = 'A self-loathing, alcoholic, anthropomorphic horse.' 
-              quote = '"I Feel Like My Life Is Just A Series Of Unrelated Wacky Adventures."' />
-        </Card>
-        </div>
-
-        <div className = 'box'> 
-        <Card style={{ width: '20rem', height: '24rem'}}>
-          <Card.Img variant="top" src='../assets/bojack.jpg' />
-            <Character 
-              name = 'Bojack Horseman' 
-              actor = 'Will Arnett' 
-              description = 'A self-loathing, alcoholic, anthropomorphic horse.' 
-              quote = '"I Feel Like My Life Is Just A Series Of Unrelated Wacky Adventures."' />
+              quote = '“The universe is a cruel, uncaring void...eventually, you’ll be dead.”' />
         </Card>
         </div>
       </div>
