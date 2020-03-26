@@ -84,6 +84,7 @@ h1{
   color: rgb(97, 95, 95);
   font-size: 18px;
   margin-top: -7px;
+  opacity: .7;
 }
 
 h2{
@@ -137,7 +138,7 @@ blockquote{
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 25px;
   }
 
   .box{
@@ -160,7 +161,7 @@ blockquote{
 
   .box{
     margin-bottom: 20px;
-    margin-left: -10px;
+    margin-left: -20px;
     box-shadow: none;
   }
 }
